@@ -1,5 +1,14 @@
 .navbar{
     background-color: rgb(248, 242, 242) !important;
+    /* display: flex; */
     position: fixed;
+    overflow: hidden;
+    z-index: 5;
     width: 100%;
+}
+.moreverticon{
+    color: black;
+}
+.sidebar-btn{
+    width: 4%;
 }

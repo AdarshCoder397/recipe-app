@@ -1,4 +1,37 @@
 .content {
-    flex: 0.8;
+    flex: 1;
     height: 90vh;
 }
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+}
+.head1{
+    margin-top: 5%;
+    text-align: center;
+}
+@media only screen and (max-width: 500px) {
+    .head1{
+        margin-top: 18%;
+    }
+  }
+@media only screen and (max-width: 1200px) {
+    .head1{
+        margin-top: 8%;
+    }
+  }
+@media only screen and (max-width: 850px) {
+    .head1{
+        margin-top: 12%;
+    }
+  }
+@media only screen and (max-width: 400px) {
+    .head1{
+        margin-top: 21%;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    .head1{
+        margin-top: 19%;
+    }
+  }

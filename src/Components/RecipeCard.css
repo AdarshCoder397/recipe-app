@@ -1,0 +1,24 @@
+.card{
+    margin-top: 2%;
+    margin-left: 10%;
+}
+@media only screen and (max-width: 500px) {
+    .card{
+        margin-top: 13%;
+    }
+  }
+@media only screen and (max-width: 1200px) {
+    .card{
+        margin-top: 6%;
+    }
+  }
+@media only screen and (max-width: 850px) {
+    .card{
+        margin-top: 10%;
+    }
+  }
+@media only screen and (max-width: 400px) {
+    .card{
+        margin-top: 19%;
+    }
+  }
