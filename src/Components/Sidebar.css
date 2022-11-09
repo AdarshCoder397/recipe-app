@@ -4,3 +4,11 @@
 .offcanvas-title{
     margin-left: 2%;
 }
+.dec_none{
+    text-decoration: none;
+    color: black;
+}
+.dec_none:hover{
+    text-decoration: none;
+    color: black;
+}
