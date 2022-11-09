@@ -1,8 +1,11 @@
 import React from "react";
 import "./Sidebar.css";
 import HomeIcon from "@mui/icons-material/Home";
-import AddIcon from "@mui/icons-material/Add";
-import LogoutIcon from "@mui/icons-material/Logout";
+import FreeBreakfastIcon from '@mui/icons-material/FreeBreakfast';
+import RamenDiningIcon from '@mui/icons-material/RamenDining';
+import FastfoodIcon from '@mui/icons-material/Fastfood';
+import DinnerDiningIcon from '@mui/icons-material/DinnerDining';
+import Person4Icon from '@mui/icons-material/Person4';
 import SidebarRow from "./SidebarRow";
 
 function Sidebar({ name, email }) {
@@ -29,9 +32,12 @@ function Sidebar({ name, email }) {
         </div>
         <div className="offcanvas-body">
           <SidebarRow selected Icon={HomeIcon} title="Home" />
-          <SidebarRow Icon={AddIcon} title="Add Recipe" />
+          <SidebarRow Icon={FreeBreakfastIcon} title="Breakfast" />
+          <SidebarRow Icon={RamenDiningIcon} title="Lunch" />
+          <SidebarRow Icon={FastfoodIcon} title="Snacks" />
+          <SidebarRow Icon={DinnerDiningIcon} title="Dinner" />
           <hr />
-          <SidebarRow Icon={LogoutIcon} title="Log Out" />
+          <SidebarRow Icon={Person4Icon} title="Creator" />
         </div>
       </div>
     </div>

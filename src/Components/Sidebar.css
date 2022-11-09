@@ -1,23 +1,6 @@
-.sidebar {
-    margin-top: 75px;
-    border-right: 1px solid lightgray;
-    height: 89vh;
+.offcanvas{
+    margin-left: -1%;
 }
-.user{
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
-}
-.user_info {
-    display: flex;
-    flex-direction: column;
-    margin-left: 17px;
-    margin-top: 12px;
-}
-.user_name{
-    margin-bottom: -5px;
-}
-.sidebar > hr{
-    margin-top: -1px;
-    margin-bottom: -1px;
+.offcanvas-title{
+    margin-left: 2%;
 }
