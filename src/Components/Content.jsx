@@ -52,6 +52,16 @@ function Content({ page }) {
               "https://www.indianhealthyrecipes.com/upma-recipe-how-to-make-upma/"
             }
           />
+          <RecipeCard
+            title={"Veg Biryani"}
+            header={
+              "Veg biryani also known as vegetable biryani is an aromatic rice dish."
+            }
+            image={
+              "https://www.indianhealthyrecipes.com/wp-content/uploads/2019/04/veg-biryani-recipe.jpg"
+            }
+            redirect={"https://www.indianhealthyrecipes.com/veg-biryani/"}
+          />
         </div>
       </div>
     );
@@ -123,19 +133,31 @@ function Content({ page }) {
         </div>
       </div>
     );
-  }else if (page === "dinner") {
+  } else if (page === "dinner") {
     return (
       <div className="content">
         <h1 className="head1">Recipe for Dinner</h1>
         <div className="cards">
           <RecipeCard
             title={"Veg Biryani"}
-            header={"Veg biryani also known as vegetable biryani is an aromatic rice dish."}
+            header={
+              "Veg biryani also known as vegetable biryani is an aromatic rice dish."
+            }
             image={
               "https://www.indianhealthyrecipes.com/wp-content/uploads/2019/04/veg-biryani-recipe.jpg"
             }
+            redirect={"https://www.indianhealthyrecipes.com/veg-biryani/"}
+          />
+          <RecipeCard
+            title={"Kadai Panner"}
+            header={
+              "Kadai paneer is a simple yet amazingly flavorful paneer dish"
+            }
+            image={
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtPgM4uVlchvL_IHNxvrw22mR7C96oI9unBw&usqp=CAU"
+            }
             redirect={
-              "https://www.indianhealthyrecipes.com/veg-biryani/"
+              "https://www.indianhealthyrecipes.com/kadai-paneer-gravy-recipe/"
             }
           />
         </div>
